@@ -1,0 +1,86 @@
+        body{   
+			    background-image: url('https://wallpaperaccess.com/full/629054.png');
+			    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+		        color: aquamarine;
+				margin-top:0%;
+				margin-bottom:0%;
+				margin-right:0%;
+				height: auto;
+				widht: auto;
+			}	
+
+		header{ 
+			margin-top: 1%;
+			background-color: none;
+			height: 10%;
+			width: auto;
+			border: 1px solid rgb(73, 240, 140);
+			font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+			font-size: 60px;
+			font-stretch: semi-expanded; 
+			text-align: center;
+		
+		}	
+
+		.clearfix{
+			clear:both;
+		}
+
+       aside{
+		float:center;
+		color:aquamarine;
+		padding-top:2%;
+		padding-right:1%;
+		width: calc(20%-20px);
+		height:5%;
+		text-align: right;
+
+	   }
+
+	   menu{
+		background-color: rgba(84, 238, 210, 0.765);
+		list-style:none;
+		font-size:20px;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-weight:lighter;
+	    width: 15%;
+		height:90%;	
+		float: right;
+		padding-left: 30px;
+		
+	   }
+
+       a{
+		color: rgb(133, 0, 250);
+		font-size: 20px;
+		font-weight: bolder;
+		font-stretch: semi-expanded;
+	   }
+	   
+
+	   content{ 
+		color:rgb(204, 255, 127);
+		padding-top:30%; 
+		float: left;
+		width: 95%;
+		height: calc(80%-10px);
+		text-align:center;
+		font-weight:normal;
+		font-size: 50px;
+		font-family: 'Times New Roman', Times, serif;
+		font-stretch:condensed
+	   }	
+
+	   footer{
+	    font-weight: lighter;
+		font-style:oblique;
+		font-size: 16px;
+		color: rgb(248, 255, 244);
+		margin-top:35%;
+		padding-bottom:1%;
+		margin-right:1%;
+		text-align: right;
+	   }
+	  
+	   
