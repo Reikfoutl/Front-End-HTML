@@ -1,0 +1,156 @@
+        body{   
+			    background-image: url('https://wallpaperaccess.com/full/629054.png');
+			    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+		        color: aquamarine;
+				margin-top:0%;
+				margin-bottom:0%;
+				margin-right:0%;
+				height: auto;
+				width: auto;
+			}	
+
+			
+
+		header{ 
+			margin-top: 1%;
+			background-color: none;
+			height: 1%;
+			width: auto;
+			border: 1px solid rgb(73, 240, 140);
+			font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+			font-size: 60px;
+			font-stretch: semi-expanded; 
+			text-align: center;
+		
+		}	
+
+		#tooltip {
+			background-color: rgb(0, 0, 0);
+			color: rgb(131, 252, 244);
+			padding: 5px 10px;
+			border-radius: 4px;
+			font-size: 13px;
+		  }
+	   
+	   #tooltip[data-show] {
+		  display: block;
+		}
+  
+		#arrow,
+		#arrow::before {
+		  position: absolute;
+		  width: 10px;
+		  height: 10px;
+		  background: inherit;
+		}
+  
+		#arrow {
+		  visibility: hidden;
+		}
+  
+		#arrow::before {
+		  visibility: visible;
+		  content: '';
+		  transform: rotate(45deg);
+		}
+  
+		#tooltip[data-popper-placement^='top'] > #arrow {
+		  bottom: -5px;
+		}
+  
+		#tooltip[data-popper-placement^='bottom'] > #arrow {
+		  top: -5px;
+		}
+  
+		#tooltip[data-popper-placement^='left'] > #arrow {
+		  right: -5px;
+		}
+  
+		#tooltip[data-popper-placement^='right'] > #arrow {
+		  left: -5px;
+		}
+
+		.clearfix{
+			clear:both;
+		}
+
+       aside{
+		float:center;
+		color:aquamarine;
+		padding-top:2%;
+		padding-right:1%;
+		width: calc(10%-40px);
+		height:60px;
+		text-align: right;
+
+	   }
+
+	   menu{
+		background-color: rgba(84, 238, 210, 0.765);
+		list-style:none;
+		font-size:20px;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-weight:lighter;
+	    width: 15%;
+		height:10%;	
+		float: right;
+		padding-left: 30px;
+		
+	   }
+
+       a{
+		color: rgb(133, 0, 250);
+		font-size: 20px;
+		font-weight: bolder;
+		font-stretch: semi-expanded;
+	   }
+	   
+
+	   content{ 
+		color:rgb(204, 255, 127);
+		padding-top: auto;
+		float: left;
+		width: 100%;
+		height: 90%;
+		text-align:center;
+		font-weight:normal;
+		font-size: 50px;
+		font-family: 'Times New Roman', Times, serif;
+		font-stretch:condensed
+	   }
+	  
+	   /*revisar largo del background*/
+	   img {
+		display: block;
+		margin-left: 87%;
+		margin-right: 15%;
+		margin-top: 30%;
+		width: 12%;
+	  }
+
+    /* Para hacer la imagen transparente */
+	   img{
+		opacity:0.4;
+        filter:alpha(opacity=40); /* For IE8 and earlier */
+      }
+
+    /* Para que deje de ser transparente al posar el mouse sobre la imagen*/
+       img:hover {
+        opacity:1.0;
+        filter:alpha(opacity=100); /* For IE8 and earlier */
+      }
+	   
+
+	   footer{
+	    font-weight: lighter;
+		font-style:oblique;
+		font-size: 16px;
+		color: rgb(248, 255, 244);
+		margin-top: 1px;
+		padding-bottom:auto;
+		margin-right: 15px;
+		text-align: right;
+	   }
+	  
+	   
