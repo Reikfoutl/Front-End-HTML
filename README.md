@@ -1,2 +1,2 @@
 # Repositorio-Front-End
-Repositorio para portafolio web, Front End
+Repositorio Front End del maquetado HTML estático para el portafolio web, perteneciente a mod 2.
